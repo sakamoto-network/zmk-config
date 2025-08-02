@@ -120,6 +120,7 @@
         mouse {
             bindings = <&to 2>;
             key-positions = <37 40>;
+            layers = <0>;
         };
     };
 
