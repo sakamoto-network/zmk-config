@@ -163,10 +163,10 @@
 
         symbols {
             bindings = <
-&trans  &kp DOLLAR       &kp PERCENT  &kp CARET  &kp PIPE      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCLAMATION  &kp AT       &kp HASH   &kp KP_EQUAL  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp AMPERSAND    &kp ASTRK    &kp PLUS   &kp TILDE     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                      &trans     &trans        &trans    &trans  &trans  &trans
+&none  &kp DOLLAR       &kp PERCENT  &kp CARET  &kp PIPE      &none    &none  &none  &none  &none  &none  &none
+&none  &kp EXCLAMATION  &kp AT       &kp HASH   &kp KP_EQUAL  &none    &none  &none  &none  &none  &none  &none
+&none  &kp AMPERSAND    &kp ASTRK    &kp PLUS   &kp TILDE     &none    &none  &none  &none  &none  &none  &none
+                                     &none      &none         &none    &none  &none  &none
             >;
         };
     };
