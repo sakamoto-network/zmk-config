@@ -128,7 +128,7 @@
         tmux: tmux {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp SPACE>;
+            bindings = <&kp LCTRL &kp B>;
             label = "TMUX";
         };
     };
