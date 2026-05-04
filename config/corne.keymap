@@ -100,12 +100,6 @@
             layers = <0>;
         };
 
-        tmux {
-            bindings = <&kp LC(SPACE)>;
-            key-positions = <17 18>;
-            layers = <0>;
-        };
-
         bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <30 33>;
