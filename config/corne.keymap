@@ -130,19 +130,19 @@
 
         main {
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp F    &kp P     &kp B        &kp J      &kp L          &kp U      &kp Y    &kp SEMI  &kp MINUS
-&mt LCTRL ESCAPE  &kp A  &kp R  &kp S    &kp T     &kp G        &kp M      &kp N          &kp E      &kp I    &kp O     &kp APOS
-&kp LSHIFT        &kp Z  &kp X  &kp C    &kp D     &kp V        &kp K      &kp H          &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                                &symbol  &kp LALT  &kp SPACE    &kp ENTER  &kp BACKSPACE  &symbol
+&kp TAB     &kp Q              &kp W              &kp F                &kp P                  &kp B        &kp J      &kp L           &kp U                 &kp Y               &kp SEMI            &kp MINUS
+&kp ESC     &bhm_l LEFT_GUI A  &bhm_l LEFT_ALT R  &bhm_l LEFT_SHIFT S  &bhm_l LEFT_CONTROL T  &kp G        &kp M      &bhm_r RCTRL N  &bhm_r RIGHT_SHIFT E  &bhm_r RIGHT_ALT I  &bhm_r RIGHT_GUI O  &kp APOS
+&kp LSHIFT  &kp Z              &kp X              &kp C                &kp D                  &kp V        &kp K      &kp H           &kp COMMA             &kp DOT             &kp FSLH            &kp RSHIFT
+                                                  &cw                  &symbol                &kp SPACE    &kp ENTER  &kp BACKSPACE   &cw
             >;
         };
 
         raise {
             bindings = <
-&kp PRINTSCREEN  &none          &bht F4 NUMBER_4  &bht F5 NUMBER_5  &bht F6 NUMBER_6  &bht F10 BACKSLASH    &mt INSERT K_COPY  &kp PAGE_DOWN   &kp PAGE_UP  &mt DELETE K_PASTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans           &kp N0         &bht F1 NUMBER_1  &bht F2 NUMBER_2  &bht F3 NUMBER_3  &bht F11 EQUAL        &mt HOME LEFT      &kp DOWN        &kp UP       &mt END RIGHT       &none              &none
-&trans           &kp LEFT_META  &bht F7 NUMBER_7  &bht F8 NUMBER_8  &bht F9 NUMBER_9  &bht F12 GRAVE        &bt BT_PRV         &kp C_PREVIOUS  &kp C_NEXT   &bt BT_NXT          &kp RIGHT_META     &trans
-                                                  &none             &trans            &trans                &trans             &out OUT_TOG    &none
+&kp PRINTSCREEN  &out OUT_TOG   &bht F4 NUMBER_4  &bht F5 NUMBER_5  &bht F6 NUMBER_6  &bht F10 BACKSLASH    &kp PAGE_UP    &kp BACKSPACE   &kp UP_ARROW  &kp DELETE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans           &kp N0         &bht F1 NUMBER_1  &bht F2 NUMBER_2  &bht F3 NUMBER_3  &bht F11 EQUAL        &kp PAGE_DOWN  &kp LEFT        &kp DOWN      &kp RIGHT   &none              &none
+&trans           &kp LEFT_META  &bht F7 NUMBER_7  &bht F8 NUMBER_8  &bht F9 NUMBER_9  &bht F12 GRAVE        &kp INS        &kp C_PREVIOUS  &kp C_NEXT    &bt BT_NXT  &kp RIGHT_META     &trans
+                                                  &none             &none             &trans                &trans         &trans          &none
             >;
         };
 
@@ -151,7 +151,7 @@
 &none  &to 0  &none  &none  &none           &none           &none           &none           &mmv MOVE_UP    &none            &none            &none
 &none  &none  &none  &none  &none           &none           &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &none
 &none  &none  &none  &none  &none           &none           &none           &none           &none           &none            &none            &none
-                     &none  &msc SCRL_DOWN  &msc SCRL_UP    &mkp LCLK       &mkp MCLK       &mkp RCLK
+                     &none  &msc SCRL_DOWN  &msc SCRL_UP    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
 
