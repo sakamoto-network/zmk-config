@@ -123,9 +123,9 @@
 
         raise {
             bindings = <
-&kp PRINTSCREEN  &out OUT_TOG   &mt F4 NUMBER_4  &mt F5 NUMBER_5  &mt F6 NUMBER_6  &mt F10 BACKSLASH    &kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans           &kp N0         &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F11 EQUAL        &kp PAGE_DOWN  &kp LEFT        &kp DOWN      &kp RIGHT   &none              &none
-&trans           &kp LEFT_META  &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &mt F12 GRAVE        &kp INS        &kp C_PREVIOUS  &kp C_NEXT    &bt BT_NXT  &kp RIGHT_META     &trans
+&kp PRINTSCREEN  &out OUT_TOG   &mt F4 NUMBER_4  &mt F5 NUMBER_5  &mt F6 NUMBER_6  &mt F10 BACKSLASH    &kp PAGE_UP    &kp HOME        &kp UP      &kp END     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans           &kp N0         &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F11 EQUAL        &kp PAGE_DOWN  &kp LEFT        &kp DOWN    &kp RIGHT   &none              &none
+&trans           &kp LEFT_META  &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &mt F12 GRAVE        &kp INS        &kp C_PREVIOUS  &kp C_NEXT  &bt BT_NXT  &kp RIGHT_META     &trans
                                                  &none            &none            &trans               &trans         &trans          &none
             >;
         };
