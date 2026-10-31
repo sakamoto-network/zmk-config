@@ -144,7 +144,16 @@
 &kp TAB           &kp Q  &kp W  &kp F         &kp P  &kp B        &kp J      &kp L          &kp U      &kp Y    &kp SEMI  &kp MINUS
 &mt LCTRL ESCAPE  &kp A  &kp R  &kp S         &kp T  &kp G        &kp M      &kp N          &kp E      &kp I    &kp O     &kp APOS
 &kp LSHIFT        &kp Z  &kp X  &kp C         &kp D  &kp V        &kp K      &kp H          &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                                &kp LEFT_ALT  &mo 1  &kp SPACE    &kp ENTER  &kp BACKSPACE  &none
+                                &kp LEFT_ALT  &mo 4  &kp SPACE    &kp ENTER  &kp BACKSPACE  &none
+            >;
+        };
+
+        raise_game {
+            bindings = <
+&kp PRINTSCREEN  &out OUT_TOG   &mt F4 NUMBER_4  &mt F5 NUMBER_5  &mt F6 NUMBER_6  &mt F10 BACKSLASH    &kp PAGE_UP    &kp HOME        &kp UP      &kp END     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans           &kp N0         &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F11 EQUAL        &kp PAGE_DOWN  &kp LEFT        &kp DOWN    &kp RIGHT   &none              &none
+&trans           &kp LEFT_META  &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &mt F12 GRAVE        &kp INSERT     &kp C_PREVIOUS  &kp C_NEXT  &bt BT_NXT  &kp DELETE         &trans
+                                                 &none            &none            &trans               &trans         &trans          &none
             >;
         };
     };
